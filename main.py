@@ -108,7 +108,6 @@ class TransparentWindow(QMainWindow):
         self.context_menu.addAction(self.action1)
         self.context_menu.addAction(self.action2)
         self.context_menu.setStyleSheet(self.stylesheet)
-        print("Action 2 triggered")
 
     def contextMenuEvent(self, event):
         self.context_menu.exec_(event.globalPos())
